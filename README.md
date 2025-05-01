@@ -50,4 +50,4 @@ uvicorn app.main:app --reload
 - Shows system design and production-readiness.
 
 ## 📬 Contact
-For questions, contact [your email].
+For questions, contact v.sandeepkrishna@gmail.com
