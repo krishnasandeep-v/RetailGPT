@@ -50,7 +50,7 @@ uvicorn app.main:app --reload
 - Business relevance: Personalized commerce experiences.
 - Shows system design and production-readiness.
 
--## 👤 Founder Vision
+## 👤 Founder Vision
 
 I built NeuraCart to solve a personal pain point: the frustrating and inefficient way people search for products online. Leveraging deep experience in AI and software engineering, combined with a passion for retail technology, my goal is to transform online shopping into an intuitive, personalized experience. I believe AI-powered multimodal search is the future of eCommerce, and NeuraCart is positioned to lead that change — starting from pilot retail partnerships to large-scale adoption.
 
