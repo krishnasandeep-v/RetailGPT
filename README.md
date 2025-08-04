@@ -1,20 +1,21 @@
-# RetailGPT 🛍️ - AI-Powered Multimodal Retail Assistant
+# NeuraCart 🛒 – AI-Powered Shopping Intelligence
 
-RetailGPT is an AI project that combines computer vision and NLP to create a smart assistant for retail experiences. It recommends products based on uploaded images, user preferences, and review-based sentiment analysis.
+NeuraCart is an AI-native retail assistant that combines cutting-edge computer vision and NLP to revolutionize online shopping. It helps users discover, compare, and choose products seamlessly by leveraging image-based search, personalized recommendations, and review sentiment insights.
 
 ## 🔥 Features
-- 📷 Image-Based Product Matching (CLIP-powered)
-- 🧠 Personalized Recommendations (Rule-based placeholder, extensible to BERT4Rec)
-- 💬 Review Sentiment Tags (NLP-based analysis)
-- ⚡ FastAPI Backend (Easy integration & deployment)
+- 🖼️ Visual Search from Images (CLIP-powered)
+- 🎯 Personalized Recommendations (Rule-based now; extensible to BERT4Rec or transformer models)
+- 💬 Review Sentiment Tags (NLP-driven insights)
+- ⚡ FastAPI Backend for scalable, production-ready deployment
 
 ## 🛠️ Tech Stack
-- Python, FastAPI, PyTorch, CLIP (OpenAI), PIL
-- Optional frontend: Streamlit (not included yet)
+- Python, FastAPI, PyTorch, OpenAI CLIP, PIL
+- Optional frontend: Streamlit (for demos)
 
 ## 📂 Project Structure
+
 ```
-RetailGPT/
+NeuraCart/
 ├── app/
 │   ├── main.py
 │   ├── vision_model.py
@@ -28,8 +29,8 @@ RetailGPT/
 
 1. Clone the repo or unzip the project folder:
 ```bash
-git clone https://github.com/yourusername/RetailGPT.git
-cd RetailGPT
+git clone https://github.com/yourusername/NeuraCart.git
+cd NeuraCart
 ```
 2. Create a virtual environment & install requirements:
 ```bash
@@ -48,6 +49,10 @@ uvicorn app.main:app --reload
 - Demonstrates vision + NLP integration.
 - Business relevance: Personalized commerce experiences.
 - Shows system design and production-readiness.
+
+-## 👤 Founder Vision
+
+I built NeuraCart to solve a personal pain point: the frustrating and inefficient way people search for products online. Leveraging deep experience in AI and software engineering, combined with a passion for retail technology, my goal is to transform online shopping into an intuitive, personalized experience. I believe AI-powered multimodal search is the future of eCommerce, and NeuraCart is positioned to lead that change — starting from pilot retail partnerships to large-scale adoption.
 
 ## 📬 Contact
 For questions, contact v.sandeepkrishna@gmail.com
